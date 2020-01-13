@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
       <title> Blue Ink Co.Ltd bangkok </title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       
-    <?php include('head.php'); ?>
-    
-  </head>
-  <body>
+	  <?php include('head.php'); ?>
+	  
+	</head>
+	<body>
       
-    <?php include('header.php'); ?>
+	  <?php include('header.php'); ?>
 
         <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -25,47 +25,44 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-           <img src="<?= base_url; ?>img/slide-1b.jpg" alt="" >
+            <img src="<?= base_url; ?>img/slide-1b.jpg" alt="" >
 
             <div class="carousel-content">
-              <!--<small>เทคโนโลยีULTIMHEAT เครื่องทำความร้อนแบบแบน</small>-->
-              <p class="main-text animated fadeInUp">แจ็คเก็ตฮีตเตอร์แบบฉนวนและแบบผ้าห่ม</p>
-              <p>ใช้เทคโนโลยีล่าสุดในการตัดแผ่นชิ้นงาน วัตถุดิบฉนวนความร้อน ด้วยเลเซอร์และตัดเย็บอุปกรณ์ทำความร้อนอัตโนมัติด้วยเครื่องตัดเแบบCNC,การแก้ปัญหาด้านเทคนิคนี้สำหรับการประหยัดพลังงานของภาชนะขนาดบรรจุตั้งแต่ 10 ลิตรถึง 1,000 ลิตร แบบพลาสติกหรือโลหะ</p>
-              <a href="<?= base_url; ?>th/pdf/Cat21-2-Blue-Ink-Section-4-to-9-TH-20191018.pdf" target="_blank" class="btn-fst">แสดงสินค้า</a>
-               <a href="<?= base_url; ?>th/email-us.html" class="btn-scd pulse">ส่งคำถาม &nbsp; <i class="fa fa-phone"></i></a>
+              <!--<small>ULTIMHEAT Technology Flat Heaters </small>-->
+              <p class="main-text animated fadeInUp">Insulated jacket heaters and blanket heaters</p>
+              <p>The latest technology with laser cutting of fabrics and insulation material, and CNC automatic stitching of heating elements. The technical solution for energy saving for containers from 10 liters to 1000 liters, plastic or metal</p>
+              <a href="<?= base_url; ?>en/pdf/Cat21-2-Blue-Ink-Section-4-to-9-EN-20191018.pdf" target="_blank" class="btn-fst">View Product</a>
+               <a href="<?= base_url; ?>en/email-us.html" class="btn-scd pulse">Send Query  &nbsp; <i class="fa fa-phone"></i></a>
             </div>
           </div> 
-      
+		  
           <div class="carousel-item">
-           <img src="<?= base_url; ?>img/slide-2b.jpg" alt="">
+            <img src="<?= base_url; ?>img/slide-2b.jpg" alt=""></a>
             <div class="carousel-content">
-              <p class="main-text animated fadeInUp">ฮีตติ้ง เทรทซิ่ง <b>ซิลิโคนริบบ้อน </b></p>
-              <p>ขนาดตั้งแต่2.5 เมตร ถึง 10 เมตรให้ความร้อนแก่ท่อได้ง่าย<br>มีหรือไม่มีข้อจำกัดกำลังไฟอัตโนมัติ</p>
-              <!-- <a href="<?= base_url; ?>th/product-not-found.php" target="_blank" class="btn-fst">แสดงสินค้า</a> -->
-              <a href="<?= base_url; ?>th/pdf/Cat25-2-Blue-Ink-Section-4-TH-20191114.pdf" target="_blank" class="btn-fst">แสดงสินค้า</a>
-               <a href="<?= base_url; ?>th/email-us.html" class="btn-scd pulse">ส่งคำถาม &nbsp; <i class="fa fa-phone"></i></a>
+              <p class="main-text animated fadeInUp">Heat tracing <b>silicone ribbons</b></p>
+              <p>From 2.5 to 10m, the simplest solution to heat pipes.<br>With or without automatic power limitation</p>
+              <a href="<?= base_url; ?>en/pdf/Cat25-2-Blue-Ink-Section-4-EN-20191018.pdf" target="_blank" class="btn-fst">View Product</a>
+               <a href="<?= base_url; ?>en/email-us.html" class="btn-scd pulse">Send Query  &nbsp; <i class="fa fa-phone"></i></a>
             </div>
           </div>
-      
+		  
           <div class="carousel-item">
-           <img src="<?= base_url; ?>img/slide-3b.jpg" alt="" >
+            <img src="<?= base_url; ?>img/slide-3b.jpg" alt="">
             <div class="carousel-content">
-              <p class="main-text animated fadeInUp">ซิลิโคนฮีตเตอร์แบบสี่เหลี่ยมยืดหยุ่นได้</p>
-              <p>สำหรับทำความร้อนพื้นผิวแบนเรียบหรือโค้ง, มีทั้งแบบกลมสี่เหลี่ยมจตุรัส, สี่เหลี่ยมมุมฉาก หรือแบบอื่นๆ แบบมีรูหรือไม่มีรู: ขนาดบางและแก้ปัญหาได้อย่างมีประสิทธิภาพ</p>
-              <!-- <a href="<?= base_url; ?>th/product-not-found.php" target="_blank" class="btn-fst">แสดงสินค้า</a> -->
-              <a href="<?= base_url; ?>th/pdf/Cat25-2-Blue-Ink-Section-6-TH-20191114.pdf" target="_blank" class="btn-fst">แสดงสินค้า</a>
-               <a href="<?= base_url; ?>th/email-us.html" class="btn-scd pulse">ส่งคำถาม &nbsp; <i class="fa fa-phone"></i></a>
+              <p class="main-text animated fadeInUp">Flexible Rectangular <b>Silicone Heaters</b></p>
+              <p>For heating flat or curved surfaces, circular, square, rectangular or irregular shapes, with or without holes: the thin and efficient solution</p>
+              <a href="<?= base_url; ?>en/pdf/Cat25-2-Blue-Ink-Section-6-EN-20191018.pdf" target="_blank" class="btn-fst">View Product</a>
+               <a href="<?= base_url; ?>en/email-us.html" class="btn-scd pulse">Send Query  &nbsp; <i class="fa fa-phone"></i></a>
             </div>
           </div>
 
           <div class="carousel-item">
             <img src="<?= base_url; ?>img/slide-4b.jpg" alt="">
             <div class="carousel-content">
-              <p class="main-text animated fadeInUp">แถบซิลิโคนฮีตเตอร์ให้ความร้อนแก่ถัง </p>
-              <p>ติดตั้งง่ายแข็งแรงและเป็นมืออาชีพ ให้ความร้อนแก่ถังได้ง่าย</p>
-              <!-- <a href="<?= base_url; ?>th/product-not-found.php" target="_blank" class="btn-fst">แสดงสินค้า</a> -->
-              <a href="<?= base_url; ?>th/pdf/Cat25-2-Blue-Ink-Section-5-TH-20191114.pdf" target="_blank" class="btn-fst">แสดงสินค้า</a>
-               <a href="<?= base_url; ?>th/email-us.html" class="btn-scd pulse">ส่งคำถาม &nbsp; <i class="fa fa-phone"></i></a>
+              <p class="main-text animated fadeInUp">Silicone Band Drum Heaters</b></p>
+              <p>Easy installation, rugged and professional. The simplest way to heat drums.</p>
+              <a href="<?= base_url; ?>en/pdf/Cat25-2-Blue-Ink-Section-5-EN-20191018.pdf" target="_blank" class="btn-fst">View Product</a>
+               <a href="<?= base_url; ?>en/email-us.html" class="btn-scd pulse">Send Query  &nbsp; <i class="fa fa-phone"></i></a>
             </div>
           </div>
 
@@ -86,21 +83,21 @@
   <div class="container">
     <div class="row ">
       <div class="col-md-7">
-        <h1 class="pb-3">ประสบการณ์ที่ยาวนาน</h1>
+        <h1 class="pb-3">Long lasting experience</h1>
         <!--<p class="mb-5">Since 1964, We provide best solutions for our valuable customers.</p>-->
-        <p class="">ก่อตั้งขึ้นในประเทศไทยตั้งแต่ปี 2551 บลู อิงค์ มีความเชี่ยวชาญด้านเครื่องทำความร้อนที่หยุ่นได้ เราเป็นส่วนหนึ่งของกลุ่มพันธมิตรUltimheatผลิตอุปกรณ์ควบคุมและเครื่องทำความร้อน ผลิตภัณฑ์ต้นแบบของเราคือเทอร์โมสตัทผลิตขึ้นในฝรั่งเศสตั้งแต่ปี 2493-2598 สินค้าที่ได้รับการจดสิทธิบัตรได้รับการออกแบบออกแบบพัฒนาและผลิตในโรงงานในกลุ่มพันธมิตรอัลทิมฮีต ดังนั้นคุณจึงได้ติดต่อกับผู้ผลิตจริงและฝ่ายวิศวกรรมของเรายินดีตอบสนองความต้องการเฉพาะของคุณโดยตรงและรวดเร็ว</p>
+        <p class="">Established in Thailand since 2008, Blue Ink is specialized in flexible heaters. We are part of the Ultimheat Alliance, manufacturing controls and heaters. Our original products, rod thermostats, were produced (and still produced) in France since 1950-1955.Products presented are patented, designed, developed, and produced in the Ultimheat Alliance factories. <b>So you are in contact with real producers,</b> and our engineering department will be pleased to answer directly and quickly to your specific requirements.</p> 
       </div>
         <div class="col-md-5">
-          <div class="events-rcnt">
-            <h2 class="text-center mb-3">เหตุการณ์ที่จะเกิดขึ้น </h2>
+		  <div id="upcoming" class="events-rcnt   js-e3article">
+            <h2 class="text-center mb-3">Upcoming events</h2>
             <div class="row">
               <div class="col-md-12 mb-3">
                 <img src="<?= base_url; ?>img/event-1st.jpg" class="w-75">
-                <p class="pt-1">Mostra Convegno 2020 17-20 มีนาคม - มิลาน - อิตาลี</p>
+                <p class="pt-1">Mostra Convegno 2020 17-20 March - Milano-Italy</p>
               </div>
               <div class="col-md-12 mb-3">
                 <img src="<?= base_url; ?>img/event-2nd.jpg" class="w-50">
-                <p class="pt-1">Aquatherm 2020 11-14 กุมภาพันธ์ - มอสโกรัสเซีย</p>
+                <p class="pt-1">Aquatherm 2020 11-14 February - Moscow Russia</p>
               </div>
             </div>
           </div>
@@ -109,19 +106,19 @@
     </div>
   </div>
 
-  <div class="sec">
+  <div class="sec container-fluid">
     <div class="row align-items-cnter">
       <div class="col-md-6 bg-sec">
       </div>
       <div class="col-md-6 py-5 dark-sec">
         <div class="row">
           <div class="col-md-9">
-          <h2 class="pb-3">แก้ปัญหาแบบมืออาชีพสำหรับผู้ที่ต้องการหาสิ่งที่มีคุณภาพและประสิทธิภาพ</h2>
+          <h2 class="pb-3">Professional solutions for professional seeking quality and efficiency</h2>
           
           <p>
-            การผลิตแบบบูรณาการผสมผสาน,
-การวิจัยนวัตกรรมสิ่งใหม่อยู่เสมอ การพัฒนาที่ทรงพลังและห้องปฏิบัติการทดสอบที่ดีเยี่ยม. ความสัมพันธ์กับลูกค้าของเรานั้นยั่งยืนและเป็นประโยชน์ร่วมกัน.พัฒนาผลิตภัณฑ์จนถึงขั้นตอนสุดท้ายเป็นไปตามมาตรฐานของROHS และ REACH สภาพแวดล้อมได้มาตราฐานการผลิตได้รับการรับรองจากISO9000, ISO14000 และได้รับฉลาก High Technology 
-
+            A vertically integrated manufacturing, a powerful and innovative research and development division, an unparalleled test laboratory.<br>
+			Our relationships with our customers are sustainable and mutually beneficial.<br>
+            Products developed to last, in compliance with ROHS and REACH environment standards. A production unit certified ISO9000, ISO14000 and having obtained the High Technologies label.
           </p>
            <img src="<?= base_url; ?>img/r-logos.png" width="200px">
 
@@ -135,29 +132,29 @@
   <div class="container-fluid py-5">
     <div class="container">
       <div class="text-center mb-5">
-      <h2>สินค้าบลู อิงค์</h2>
+      <h2>Blue Ink Products</h2>
       
     </div>
       
       <div class="row">
         <div class="col-md-5">
-          <img src="<?= base_url; ?>img/p-1.jpg" class="img-thumbnail">
+          <img src="<?= base_url; ?>img/p-1.jpg" class="img-thumbnail mt-5">
         </div>
         <div class="col-md-5">
-          <img src="<?= base_url; ?>img/p-2.jpg" class="img-thumbnail">
+          <img src="<?= base_url; ?>img/p-2.jpg" class="img-thumbnail mt-5">
         </div>
         <div class="col-md-2 text-center">
           <div class="mb-3">
-      <h2 class="cataog"> ดาวน์โหลดแค็ทตาล็อคเต็มรูปแบบ </h2>
+      <h6 class="cataog"> Download full catalogues</h6>
       
     </div>
-          <a href="<?= base_url; ?>th/pdf/Cat21-2-Blue-Ink-Full-TH-20191018.pdf" target="_blank"><img src="<?= base_url; ?>img/Cat21-2 Blue Ink C1 Thai 20191008-2.jpg" class="img-thumbnail mb-3"></a>
-          <a href="<?= base_url; ?>th/pdf/Cat25-2-Blue-Ink-Full-TH-20191018.pdf" target="_blank"><img src="<?= base_url; ?>img/Cat25-2 TH C1 20191008-3.jpg" class="img-thumbnail mb-3"></a>
+          <a href="<?= base_url; ?>en/pdf/Cat21-2-Blue-Ink-Full-EN-20191018.pdf" target="_blank"><img src="<?= base_url; ?>img/Cat21-2 Blue Ink C1 EN 20191008.jpg" class="img-thumbnail mb-3"></a>
+         <a href="<?= base_url; ?>en/pdf/Cat25-2-Blue-Ink-Full-EN-20191018.pdf" target="_blank"> <img src="<?= base_url; ?>img/Cat25-2 Blue Ink C1 EN 20191009.jpg" class="img-thumbnail mb-3"></a>
         </div>
       </div>
 
       <div class="text-center">
-         <a href="<?= base_url; ?>th/products.html" class="btn-fst mx-auto">แสดงต่อ</a>
+         <a href="<?= base_url; ?>en/products.html" class="btn-fst mx-auto">View More</a>
       </div>
 
     </div>
@@ -215,16 +212,16 @@
   <div class="container-fluid py-5" style="background: url(../img/concrete_seamless.png);">
     <div class="container">
       <div class="text-center mb-5">
-      <h2>ติดต่อเรา</h2>
+      <h2>Contact Us</h2>
     </div>
       <div class="row">
         <div class="col-md-6">
           <div class="contact-info mb-3" style="background: #fff;">
-                        <p><b> ชื่อบริษัท : บริษัท บลู อิงค์ จำกัด </b></p>
-                        <p>ที่อยู่: อาคาร น้ำค้างยามเช้า, 41-1 ซอยสุขุมวิท46, ถ. สุขุมวิท เขตพระโขนงคลองเตยกรุงเทพมหานคร 10110 ประเทศไทย</p>
+                        <p><b> Blue Ink Company Limited </b></p>
+                        <p>Morning Dew Building, 41-1 Soi Sukhumvit46, Sukhumvit Rd. Phrakanong Klongtoey Bangkok 10110 Thailand</p>
                         <p><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +66(0)27135196</a></p>
                         <p><a href="#"><i class="fa fa-fax" aria-hidden="true"></i>&nbsp; +66(0)27135197 </a></p>
-                        <p><a href="<?= base_url; ?>th/email-us.html" class="email-btn"><span class="fa fa-envelope" aria-hidden="true"></span>ส่งอีเมลถึงเรา</a></p>
+                        <p><a href="<?= base_url; ?>en/email-us.html" class="email-btn"><span class="fa fa-envelope" aria-hidden="true"></span>Send us E-mail</a></p>
                      </div>
         </div>
         <div class="col-md-6">
@@ -236,6 +233,6 @@
 
 
       
-    <?php include('footer.php'); ?>
+		<?php include('footer.php'); ?>
     </body>
 </html>

@@ -1,33 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>บริษัท บลู อิงค์ จำกัด - วิธีการสั่งซื้อสินค้า ULTIMHEAT</title>
-            <meta charset="utf-8">
+      <title> Blue Ink Co.Ltd bangkok </title>
+      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="robots" content="all"> <meta name="keywords" content="ULTIMHEAT, บริษัท บลู อิงค์ จำกัด, วิธีการสั่งซื้อสินค้า, การสั่งซื้อสินค้าแบบมาตรฐาน, การสั่งผลิตสินค้าใหม่ , ปริมาณสินค้าในคลังสินค้า, ส่งออกสินค้าทั่วโลก, ระยะเวลาและค่าขนส่งขึ้นอยู่กับรูปแบบการขนส่งและจุดหมายปลายทาง,แผ่นซิลิโคนทำความร้อน,
-แจ็คเก็ต ฮีตเตอร์,
-แจ็ตเก็ต ฮีทเตอร์,
-เครื่องทำความร้อนสำหรับถัง,
-เครื่องทำความร้อนถัง,
-เครื่องให้ความร้อนแก่ถัง,
-เครื่องให้ความร้อนถัง,
-เครื่องทำความร้อนขนาดเล็ก,
-เครื่องทำความร้อนสำหรับปี๊บ,
-เครื่องทำความร้อนสำหรับถังขนาดเล็ก,
-เครื่องทำความร้อนถัง IBC,
-แผ่นซิลิโคนทำความร้อนสำหรับถัง,
-แผ่นซิลิโคนทำความร้อนแก่ถัง,
-แถบซิลโคนให้ความร้อนสำหรับถัง,
-แถบซิลิโคนให้ความร้อนแก่ถัง,
-แถบความร้อนป้องกันการแช่แข็ง,
-แถบให้ความร้อน,
-ซิลิโคนให้ความร้อน,
-แถบซิลิโคนให้ความร้อน,
-แถบซิลิโคนป้องกันการแช่แข็ง"> 
-<meta name="description" content="บริษัท บลู อิงค์ จำกัด ULTIMHEAT วิธีการสั่งซื้อสินค้า  วัสดุพื้นผิวทำความร้อนยืดหยุ่นซิลิโคน">
-
-
-
       
 	  <?php include('head.php'); ?>
 	  
@@ -39,50 +15,47 @@
       <div class="container-fluid top-space">
          <div class="container">
             <div class="row reverse-mob">
-               <div class="col-lg-4 col-md-4">
-                  
-				  <?php include('sidebar.php'); ?>
-				  
-               </div>
-               <div class="col-lg-8 col-md-8 order-des ">
+            
+               <div class="col-lg-12 col-md-12 order-des ">
                   <div>
-                     <h3 class="pb-2">วิธีการสั่งซื้อสินค้า</h3>
+                     <h3 class="pb-2">How To Order</h3>
                      <div class="border-bottom mb-3">
-                        <p>การสั่งซื้อสินค้าแบบมาตรฐาน กรุณาใส่รหัสสินค้าและระบุจำนวนสินค้านั้นๆที่ต้องการสั่งซื้อ ในกรณีที่เป็นสินค้าที่มีคุณสมบัตินอกเหนือจากแบบมาตรฐาน กรุณาระบุรหัสแผนกของสินค้า จำนวนสินค้าและคุณสมบัติอื่นๆตามต้องการ กรุณาติดต่อกับทางบริษัท เกี่ยวกับคุณสมบัติเพิ่มเติมของสินค้าก่อนสั่งซื้อ</p>
+                        <p>To order stock silicone rubber heaters, specify by code number and the quantity. To order a heater with options, specify the code number, quantity and options desired. Please consult before combining options.</p>
                      </div>
                   </div>
                   <div>
-                     <h3 class="pb-2">การสั่งผลิตสินค้าใหม่</h3>
+                     <h3 class="pb-2">Made To Order </h3>
                      <div class="border-bottom mb-3">
-                        <p>สำหรับการสั่งผลิตสินค้าใหม่นั้น เราต้องการข้อมูลเฉพาะนอกเหนือจากท่าน เช่น</p>
+                        <p>For made-to-order units, we will need the following application information from you:</p>
                         <ul class="">
-                           <li>ขนาด</li>
-                           <li>แรงดันไฟฟ้า (โวลต์)</li>
-                           <li>ค่าพลังงานวัตต์ (watt density)</li>
-                           <li>อุณหภูมิการใช้งาน</li>
-                           <li>ความต้องการเสริมอื่นๆ เช่น ตัวนำไฟฟ้า ตัวปรับอุณหภูมิ วิธีการเชื่อมและอื่นๆ</li>
-                           <li>ต้องการฮีทเตอร์ที่มีความยืดหยุ่นหรือไม่</li>
-                           <li>ชิดของวัสดุที่ต้องการทำ</li>
-                           <li>คำยินยอมจากบริษัทตัวแทน</li>
-                           <li>จำนวนสินค้า</li>
+                           <li>Size (dimensions)</li>
+                           <li>Voltage</li>
+                           <li>Wattage/watt density</li>
+                           <li>Operating temperature</li>
+                           <li>Options (leads, thermostats, attachment techniques, etc.)</li>
+                           <li>Will heater be subject to flexing?</li>
+                           <li>Element type, if you have a preference</li>
+                           <li>Agency approvals</li>
+                           <li>Quantity</li>
                         </ul>
-                        <!-- <p>สำหรับการขอตัวอย่างหรือขอราคาสินค้า กรุณาดาวน์โหลดและกรอกแบบฟอร์มที่แนบมานี้ส่งมาทางเรา :</p>
+                        <!-- <p>For Sample Request and Price Quotation form, please fill in the following requesting form:</p>
                         <a href="#" class="btn-green ">BI Request Form.doc</a> -->
                      </div>
                   </div>
                   <div>
-                     <h3 class="pb-2">เกี่ยวกับปริมาณสินค้าในคลังสินค้า </h3>
+                     <h3 class="pb-2">Availability </h3>
                      <div class="border-bottom mb-3">
-                        <p>จำนวนสินค้าในคลังสินค้าของเรานั้น มีการจัดเก็บไว้ในปริมาณที่เหมาะสมกับประมาณการสั่งซื้อของเรา <b>ฉะนั้น ในบางช่วงเวลา บางกรณีสินค้าอาจมีจำนวนไม่พอต่อความต้องการของท่าน </b>ในกรณีเมื่อถึงเวลานัดในการส่งมอบสินค้า แต่ทางเราไม่สามารถส่งมอบสินค้าได้ในวันเวลาที่กำหนดดังกล่าว ทางเราให้สิทธิท่านเป็นผู้ตัดสินใจในการขอรับเงินคืนทั้งหมด หรือยินยอมการยืดระยะเวลาการส่งมอบสินค้าออกไป พร้อมรับส่วนลดเป็นกรณีพิเศษ</p>
+                        <p>Our stock is an on-line stock intended for immediate sale. Therefore sometimes a product may not be in stock at the time of your placing the order. If at the time of your payment we are not able to deliver immediately, we will give you the choice between a full refund or delayed delivery with an extra discount.</p>
                      </div>
                   </div>
                   <div>
-                     <h3 class="pb-2">ราคาและการจัดส่งสินค้า</h3>
+                     <h3 class="pb-2">Price and Shipping </h3>
                      <div class="border-bottom mb-3">
-                        <p>เราสามารถส่งออกสินค้าได้ทั่วโลก ราคาสินค้าในใบกำกับสินค้าไม่รวมค่าขนส่ง <b>ระยะเวลาและค่าขนส่งขึ้นอยู่กับรูปแบบการขนส่งและจุดหมายปลายทางของท่าน </b>เราจะติดต่อกับท่านผ่านทางอีเมล์เกี่ยวกับการขอราคาสินค้าและการขนส่งสินค้า (กรุณาส่งเอกสารของคุณ <a href="<?= base_url; ?>th/contact.html" class="text-dark">ที่นี่)</a>
+                        <p>We ship worldwide; therefore the prices listed do not include shipping costs. <b>Delivery times and shipping costs depend on the shipping method you choose and the shipping address.</b> We will respond to your request for price and delivery by e-mail please send your request <a href="<?= base_url; ?>en/email-us.html" class="text-dark" >here.</a>
                         </p>
                         <p><font face="Arial" size="3"> 
-                           กรุณาระบุที่หมายปลายทางจัดส่งสินค้าให้ถูกต้องชัดเจน เพื่อให้ได้ราคาที่ดีที่สุด <b>กรุณาอย่าชำระเงินก่อนการยืนยันราคาจากทางเรา</b>
+                           Remember to give your exact address, so that you can enjoy the best prices. 
+                           <b>Do not send money until we have confirmed the prices.</b>
                            </font>
                         </p>
                      </div>
