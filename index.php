@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<?php define("base_url", "http://design.eglogics.website/ultimheat/"); ?>
 <html lang="en">
 
 <head>
@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="<?= base_url; ?>css/style.css">
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 
@@ -40,15 +40,15 @@
 
     <div class="container">
     <div class="brand d-block d-md-none text-center">
-    	<a href="http://design.eglogics.website/ultimheat/products-EN.html"><img src="img/mob-logo.png" class="logo-main"></a>
-    	<a href="http://design.eglogics.website/ultimheat/products-EN.html"><img src="img/mob-logo-2.png" class="logo-2"></a>
+    	<a href="<?= base_url; ?>products-EN.html"><img src="img/mob-logo.png" class="logo-main"></a>
+    	<a href="<?= base_url; ?>products-EN.html"><img src="img/mob-logo-2.png" class="logo-2"></a>
     </div>
 <div class="d-none d-md-block">
     <div class="row logo-sec ">
 
       <div class="col-md-2">
 
-         <a href="http://design.eglogics.website/ultimheat/products-EN.html">  <img src="img/logo.png" class="logo"></a>
+         <a href="<?= base_url; ?>products-EN.html">  <img src="img/logo.png" class="logo"></a>
 
       </div>
 
@@ -62,7 +62,7 @@
 
       <div class="col-md-4 text-center pt-2">
 
-          <img src="img/ultiheat.jpg" class="right-logo"><br>
+          <img src="<?= base_url; ?>img/ultiheat.jpg" class="right-logo"><br>
 
           <small class="text-white">Controls, Components, Heating equipments</small>
 
@@ -111,9 +111,9 @@
 
                           <li>
 
-                            <a href="http://design.eglogics.website/ultimheat/en/home.html">
+                            <a href="<?= base_url; ?>en/home.html">
 
-                              <img src="img/english.png"><br>
+                              <img src="<?= base_url; ?>img/english.png"><br>
 
                             English</a>
 
@@ -121,9 +121,9 @@
 
                            <li>
 
-                             <a href="http://design.eglogics.website/ultimheat/th/home.html">
+                             <a href="<?= base_url; ?>th/home.html">
 
-                              <img src="img/thai.png"><br>
+                              <img src="<?= base_url; ?>img/thai.png"><br>
 
                             Thai</a>
 
