@@ -88,7 +88,7 @@
         <p class="">Established in Thailand since 2008, Blue Ink is specialized in flexible heaters. We are part of the Ultimheat Alliance, manufacturing controls and heaters. Our original products, rod thermostats, were produced (and still produced) in France since 1950-1955.Products presented are patented, designed, developed, and produced in the Ultimheat Alliance factories. <b>So you are in contact with real producers,</b> and our engineering department will be pleased to answer directly and quickly to your specific requirements.</p> 
       </div>
         <div class="col-md-5">
-          <div class="events-rcnt">
+		  <div id="upcoming" class="events-rcnt   js-e3article">
             <h2 class="text-center mb-3">Upcoming events</h2>
             <div class="row">
               <div class="col-md-12 mb-3">

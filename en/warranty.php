@@ -15,12 +15,8 @@
 		<div class="container-fluid mt-4">
 		  <div class="container">
 			<div class="row">
-			<div class="col-md-4 col-lg-4">
-			 
-			 <?php include('sidebar.php'); ?>
-			 
-			</div>
-			<div class="col-md-8 col-lg-8 order-des">
+			
+			<div class="col-md-12 col-lg-12 order-des">
 			  <div>
 				<h3 class="pb-2"> Warranty</h3>
 

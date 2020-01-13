@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
       <title> Blue Ink Co.Ltd bangkok </title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       
-	  <?php include('head.php'); ?>
-	  
-	</head>
-	<body>
+    <?php include('head.php'); ?>
+    
+  </head>
+  <body>
       
-	  <?php include('header.php'); ?>
+    <?php include('header.php'); ?>
 
-		<section id="new-products"  class="pt-4  bg-grey">
+    <section id="new-products"  class="pt-4  bg-grey">
          <div class="container text-center">
             <h1 class="page-title">ULTIMHEAT<sup>®</sup> GROUP PRODUCTS</h1>
             <div class="row">
               
                <div class="col-lg-4 col-md-6">
                   <article class="card new-card" data-sku="Y0308G">
-                  	<!-- <span class="tag-top">New</span> --> 
+                    <!-- <span class="tag-top">New</span> --> 
                      <img src="<?= base_url; ?>new-images/Y0308G.jpg" class="card-imgs mb-2">
                      <small class="text-grey mb-2"><b>Type Y0308G</b> </small>
                      <h4>“Pigtail” bulb room thermostat. </h4>
-                    	
+                      
                     <p><b>Main features:</b> Ambient temperature control in professional premises where good protection against liquid splashes or dust is requested. Adjustment ranges: 4-40°C (40-105°F). Contact: SPDT </p>
 
                      <div class="btns">
                         <a href="<?= base_url; ?>en/y0308g.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y0308G-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">001</span>
                      </div>
                   </article>
                </div>
@@ -48,6 +49,7 @@
                         <a href="<?= base_url; ?>en/y0d.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y0D-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">002</span>
                      </div>
                   </article>
                </div>
@@ -66,6 +68,7 @@
                         <a href="<?= base_url; ?>en/y0a.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y0A-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">003</span>
                      </div>
                   </article>
                </div>
@@ -84,6 +87,7 @@
                         <a href="<?= base_url; ?>en/y0b.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y0B-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">004</span>
                      </div>
                   </article>
                </div>
@@ -106,6 +110,7 @@
                         <a href="<?= base_url; ?>en/y06-y07.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y06-and-Y07-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">005</span>
                      </div>
                   </article>
                </div>
@@ -125,6 +130,7 @@
                         <a href="<?= base_url; ?>en/y08.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y08-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">006</span>
                      </div>
                   </article>
                </div>
@@ -145,6 +151,7 @@
                         <a href="<?= base_url; ?>en/y09.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y09-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">007</span>
                      </div>
                   </article>
                </div>
@@ -163,6 +170,7 @@
                         <a href="<?= base_url; ?>en/72.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/72-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">008</span>
                      </div>
                   </article>
                </div>
@@ -180,6 +188,7 @@
                         <a href="<?= base_url; ?>en/uwj.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/UWJ-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">009</span>
                      </div>
                   </article>
                </div>
@@ -197,6 +206,7 @@
                         <a href="<?= base_url; ?>en/49c.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/49C-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">010</span>
                      </div>
                   </article>
                </div>
@@ -214,6 +224,7 @@
                         <a href="<?= base_url; ?>en/4remr.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/4REMR-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">011</span>
                      </div>
                   </article>
                </div>
@@ -231,6 +242,7 @@
                         <a href="<?= base_url; ?>en/wqd.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/WQD-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">012</span>
                      </div>
                   </article>
                </div>
@@ -248,6 +260,7 @@
                         <a href="<?= base_url; ?>en/8gb060500.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/8GB060500-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">013</span>
                      </div>
                   </article>
                </div>
@@ -265,6 +278,7 @@
                         <a href="<?= base_url; ?>en/ls.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/LS-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">014</span>
                      </div>
                   </article>
                </div>
@@ -283,6 +297,7 @@
                         <a href="<?= base_url; ?>en/be2356.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/BE2-BE3-BE5-BE6-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">015</span>
                      </div>
                   </article>
                </div>
@@ -302,6 +317,7 @@
                         <a href="<?= base_url; ?>en/y30.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Y301UC2EA2-Y307E-Y308E-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">016</span>
                      </div>
                   </article>
                </div>
@@ -319,6 +335,7 @@
                         <a href="<?= base_url; ?>en/y6tp.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2015 New product P18 Ultimheat EN Y6TP 20130220.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">017</span>
                      </div>
                   </article>
                </div>
@@ -336,6 +353,7 @@
                         <a href="<?= base_url; ?>en/9bf.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9BF-EN-20150717.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="javascript:void(0);" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">018</span>
                      </div>
                   </article>
                </div>
@@ -353,6 +371,7 @@
                         <a href="<?= base_url; ?>en/ib.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-41Surface mounting thermostat-Type IB20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">019</span>
                      </div>
                   </article>
                </div>
@@ -370,6 +389,7 @@
                         <a href="<?= base_url; ?>en/35er.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-42Energy regulators-Type 35ER20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">020</span>
                      </div>
                   </article>
                </div>
@@ -387,6 +407,7 @@
                         <a href="<?= base_url; ?>en/8g.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-43Single pole bulb and capillary thermostat-Type 8G20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">021</span>
                      </div>
                   </article>
                </div>
@@ -404,6 +425,7 @@
                         <a href="<?= base_url; ?>en/8c.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-47Three pole control thermostat-Type 8C20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">022</span>
                      </div>
                   </article>
                </div>
@@ -421,6 +443,7 @@
                         <a href="<?= base_url; ?>en/rod-thermostat-1b.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-50Rod thermostat DPST and SPDT-Type 1B-1C-1R-1U20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">023</span>
                      </div>
                   </article>
                </div>
@@ -438,6 +461,7 @@
                         <a href="<?= base_url; ?>en/electronic_thermostat-2pe.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-53Blind electronic thermostat-Electronic thermostat for incorporation-Type 2PE2N620130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">024</span>
                      </div>
                   </article>
                </div>
@@ -456,6 +480,7 @@
                         <a href="<?= base_url; ?>en/digital_display_electronic_controller-2dn.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-54Digital display thermostat for DIN rail Type 2DNAP620130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">025</span>
                      </div>
                   </article>
                </div>
@@ -473,6 +498,7 @@
                         <a href="<?= base_url; ?>en/3_pole_manual_reset_disc_thermostats-4c.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-61Three pole manual reset disc thermostat Type 4C20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">026</span>
                      </div>
                   </article>
                </div>
@@ -490,6 +516,7 @@
                         <a href="<?= base_url; ?>en/3_pole_manual_reset_high_limit_thermostat-82.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-63Three pole manual reset high limit, fail safe Type 8220130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">027</span>
                      </div>
                   </article>
                </div>
@@ -507,6 +534,7 @@
                         <a href="<?= base_url; ?>en/additional_thermosta-20shaft_switch-type-ls.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-75LS additional thermostat shaft.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">028</span>
                      </div>
                   </article>
                </div>
@@ -524,6 +552,7 @@
                         <a href="<?= base_url; ?>en/on-off-rotary-switch-type-lt.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-76LT On-off rotary switch.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html"  target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">029</span>
                      </div>
                   </article>
                </div>
@@ -541,6 +570,7 @@
                         <a href="<?= base_url; ?>en/professional-bulb-and-capillary-thermostat-type-k.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-44Single pole bulb and capillary thermostat-Type KR-Type KU20130603.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat1.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">030</span>
                      </div>
                   </article>
                </div>
@@ -559,6 +589,7 @@
                         <a href="<?= base_url; ?>en/cabinet_thermostat_DIN_rail_mounting-y02n.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Cat24 P29 Ultimheat EN Y02N 20150918.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">031</span>
                      </div>
                   </article>
                </div>
@@ -578,6 +609,7 @@
                         <a href="<?= base_url; ?>en/ip44-housing-bulb-and-capillary-thermostat-y03.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-20IP20 to IP44 Enclosures and thermostatic controls20130606.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">032</span>
                      </div>
                   </article>
                </div>
@@ -597,6 +629,7 @@
                         <a href="<?= base_url; ?>en/ip44-housing-rod-thermostat-y04.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/1-21IP44 bulb and capillary thermostat20130606.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">033</span>
                      </div>
                   </article>
                </div>
@@ -616,6 +649,7 @@
                         <a href="<?= base_url; ?>en/ip44-housing-rod-thermostat-for-swimming-pools-y05.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Cat2 P22 Ultimheat EN Y05 20130409.pdf"  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">034</span>
                      </div>
                   </article>
                </div>
@@ -638,6 +672,7 @@
                         <a href="<?= base_url; ?>en/ip65-aluminum-y1a.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-34IP65 aluminium enclosure ambient temperature thermostat20140618 "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">035</span>
                      </div>
                   </article>
                </div>
@@ -657,6 +692,7 @@
                         <a href="<?= base_url; ?>en/ip65-aluminum-y1gk.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-44IP65 aluminium enclosure bulb and capillary thermostat20140617.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">036</span>
                      </div>
                   </article>
                </div>
@@ -675,6 +711,7 @@
                         <a href="<?= base_url; ?>en/ip65-aluminum-y1g8.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-45IP65 aluminium enclosure bulb and capillary thermostat20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">037</span>
                      </div>
                   </article>
                </div>
@@ -695,6 +732,7 @@
                         <a href="<?= base_url; ?>en/ip65-aluminum.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-67IP65 aluminium enclosure Rod thermostat20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">038</span>
                      </div>
                   </article>
                </div>
@@ -712,6 +750,7 @@
                         <a href="<?= base_url; ?>en/ip65-aluminum-y108.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-88IP65 aluminium enclosure for pipes surface temperature control20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" class="access-link" target="_blank" > Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">039</span>
                      </div>
                   </article>
                </div>
@@ -730,6 +769,7 @@
                         <a href="<?= base_url; ?>en/thermostats-with-IP65-plastic-y22.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-106Thermostats with IP65 plastic housings for heat tracing20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">040</span>
                      </div>
                   </article>
                </div>
@@ -748,6 +788,7 @@
                         <a href="<?= base_url; ?>en/immersion-heaters-Type-y303.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-126-127Immersion heaters connection boxes aluminium 78x66x5020130606.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">041</span>
                      </div>
                   </article>
                </div>
@@ -766,6 +807,7 @@
                         <a href="<?= base_url; ?>en/immersion-heaters-type-y304.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-128-129mmersion heaters connection boxes 78x78x74mm.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">042</span>
                      </div>
                   </article>
                </div>
@@ -784,6 +826,7 @@
                         <a href="<?= base_url; ?>en/immersion-heaters-type-y305.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-133-135Immersion heaters connection boxes aluminium 105x105x9620130606.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" class="access-link" target="_blank"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">043</span>
                      </div>
                   </article>
                </div>
@@ -802,6 +845,7 @@
                         <a href="<?= base_url; ?>en/immersion-heaters-type-y306.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-138-139Immersion heaters connection boxes Dia100x100mm20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">044</span>
                      </div>
                   </article>
                </div>
@@ -820,6 +864,7 @@
                         <a href="<?= base_url; ?>en/immersion-heaters-type-y309.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-152Immersion heaters connection boxes 182x132x144mm20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">045</span>
                      </div>
                   </article>
                </div>
@@ -838,6 +883,7 @@
                         <a href="<?= base_url; ?>en/hand-held-y5f.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-184-186Hand hold Electronic temperature controller20140318.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">046</span>
                      </div>
                   </article>
                </div>
@@ -856,6 +902,7 @@
                         <a href="<?= base_url; ?>en/silicone-boots-9bbjo.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-192Filling silicone-Thermostat boots-Thermostats protection20130606.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">047</span>
                      </div>
                   </article>
                </div>
@@ -876,6 +923,7 @@
                         <a href="<?= base_url; ?>en//immersion-heaters-brass-fittings-9bbra.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/2-202Immersion heater brass fittings main products20130606.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat2.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">048</span>
                      </div>
                   </article>
                </div>
@@ -894,6 +942,7 @@
                         <a href="<?= base_url; ?>en/industrial-temperature-controls-type-y678.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/3-62-63Control boxes with On Off Electronic controllers20130621.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat3.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">049</span>
                      </div>
                   </article>
                </div>
@@ -912,6 +961,7 @@
                         <a href="<?= base_url; ?>en/electronic_intelligent_controller-type273.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/3-45Temperature controller On Off action20130621.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat3.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">050</span>
                      </div>
                   </article>
                </div>
@@ -931,6 +981,7 @@
                         <a href="<?= base_url; ?>en/explosion_proof_bulb_and_capillary_thermostats-type_kaa.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/4-17-18Temperature control front mounting20140430.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat4.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">051</span>
                      </div>
                   </article>
                </div>
@@ -951,6 +1002,7 @@
                         <a href="<?= base_url; ?>en/explosion_proof_thermostats_ip54_aluminum-y90-g.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/30Bulb and capillary thermostats with IP54 aluminum enclosures Inside Window set point adjustment20140528.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat4.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">052</span>
                      </div>
                   </article>
                </div>
@@ -969,6 +1021,7 @@
                         <a href="<?= base_url; ?>en/explosion_proof_thermostats_and_limiters-type_y94.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/43Bulb and capillary thermostats 15A 230V-400V aluminum enclosure knob adjustment20140528.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat4.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">053</span>
                      </div>
                   </article>
                </div>
@@ -987,6 +1040,7 @@
                         <a href="<?= base_url; ?>en/explosion_proof_thermostats_and_limiters-type-y96.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/45Rod thermostats 15A 230V-400V aluminum enclosure knob adjustment20140528.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat4.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">054</span>
                      </div>
                   </article>
                </div>
@@ -1004,6 +1058,7 @@
                         <a href="<?= base_url; ?>en/positive-pressure-switches-type-ze.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-13Miniature pressure switches for printed circuit boards Slow action contact NO contacts 6.35 pitch plastic fittings20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">055</span>
                      </div>
                   </article>
                </div>
@@ -1021,6 +1076,7 @@
                         <a href="<?= base_url; ?>en/positive-pressure-switches-type-za.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-20Miniature pressure switches for conventional wiring with 6.3 QC terminals Slow action contact NC contacts plastic fitting20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">056</span>
                      </div>
                   </article>
                </div>
@@ -1038,6 +1094,7 @@
                         <a href="<?= base_url; ?>en/snap-action-pressure-switch-type-zq.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-23Miniature pressure switches high electrical rating single pole snap action contact Plastic fittings20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">057</span>
                      </div>
                   </article>
                </div>
@@ -1056,6 +1113,7 @@
                         <a href="<?= base_url; ?>en/snap-action-pressure-switch-type-zw.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-25Miniature pressure switches high electrical rating double pole snap action contact Plastic fittings20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">058</span>
                      </div>
                   </article>
                </div>
@@ -1073,6 +1131,7 @@
                         <a href="<?= base_url; ?>en/snap-action-pressure-switch-type-ma1.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-27Single pole pressure switches high electrical rating snap action contact adjustable set point metal fittings IP65 housing20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">059</span>
                      </div>
                   </article>
                </div>
@@ -1090,6 +1149,7 @@
                         <a href="<?= base_url; ?>en/snap-action-pressure-switch-type-mn3.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-293 poles pressure switches high electrical rating snap action contact adjustable set point  metal fittings20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">060</span>
                      </div>
                   </article>
                </div>
@@ -1107,6 +1167,7 @@
                         <a href="<?= base_url; ?>en/differential_pressure_switch-type-zh.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-47Miniature low differential pressure switches for 5 mm pitch printed circuit boards Slow action contact20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">061</span>
                      </div>
                   </article>
                </div>
@@ -1124,6 +1185,7 @@
                         <a href="<?= base_url; ?>en/snap-action-contact-airswitch-type-zp.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-56Single pole air switches snap action high electrical rating plastic fittings20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">062</span>
                      </div>
                   </article>
                </div>
@@ -1143,6 +1205,7 @@
                         <a href="<?= base_url; ?>en/air_uttons_66zm5.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-58Air buttons20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">063</span>
                      </div>
                   </article>
                </div>
@@ -1160,6 +1223,7 @@
                         <a href="<?= base_url; ?>en/foot-air-pedal-66zmd.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/5-59Foot air pedals20130704.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat5.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">064</span>
                      </div>
                   </article>
                </div>
@@ -1178,6 +1242,7 @@
                         <a href="<?= base_url; ?>en/paddle-flow-switches-type-r1b.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/6-11-12Plastic paddle20140311.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">065</span>
                      </div>
                   </article>
                </div>
@@ -1196,6 +1261,7 @@
                         <a href="<?= base_url; ?>en/paddle-flow-switches-type-r1d.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/6-13Paddle flow switches micro-switch contact 1-2 BSPP male thread and Pt100 temperature sensor20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">066</span>
                      </div>
                   </article>
                </div>
@@ -1215,6 +1281,7 @@
                         <a href="<?= base_url; ?>en/paddle-flow-switches-type-r1q.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/6-14Plastic paddle Pt100 temperature sensor20140311.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">067</span>
                      </div>
                   </article>
                </div>
@@ -1232,6 +1299,7 @@
                         <a href="<?= base_url; ?>en/paddle-flow-switches-type-r1p.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/6-20Paddle flow switches reed switch contact 3-4 union nut slim design20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">068</span>
                      </div>
                   </article>
                </div>
@@ -1249,6 +1317,7 @@
                         <a href="<?= base_url; ?>en/paddle-flow-switches-soft-tube-type-r1q.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/6-21Paddle flow switches reed switch contact inside barbed tee for 1 soft tube20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">069</span>
                      </div>
                   </article>
                </div>
@@ -1267,6 +1336,7 @@
                         <a href="<?= base_url; ?>en/pdf/6-22-23Long trimmable plastic paddle20140311.pdf "  target="_blank" class="btn-red">Download PDF
                         </a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">070</span>
                      </div>
                   </article>
                </div>
@@ -1285,6 +1355,7 @@
                         <a href="<?= base_url; ?>en/pdf/6-24-25Long trimmable plastic paddle IP65 connection box20140311.pdf "  target="_blank" class="btn-red">Download PDF
                         </a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">071</span>
                      </div>
                   </article>
                </div>
@@ -1303,6 +1374,7 @@
                         <a href="<?= base_url; ?>en/pdf/6-36Piston flow switches reed switch contact inlet and outlet 3-4 BSPP male20130707.pdf "  target="_blank" class="btn-red">Download PDF
                         </a>
                         <!-- <a href="http://www.ultimheat.com/cat6.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">072</span>
                      </div>
                   </article>
                </div>
@@ -1320,6 +1392,7 @@
                         <a href="<?= base_url; ?>en/vertical-mounting-level-switch-type-dm.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/7-12Reed switch contact20140311.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat7.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">073</span>
                      </div>
                   </article>
                </div>
@@ -1338,6 +1411,7 @@
                         <a href="<?= base_url; ?>en/horizontal-mounting-level-switch-type-dt.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/7-20Reed switch contact20140311.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat7.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">074</span>
                      </div>
                   </article>
                </div>
@@ -1355,6 +1429,7 @@
                         <a href="<?= base_url; ?>en/mechanical-hum-distats-type-q88f.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/8-7Front shaft20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat8.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">075</span>
                      </div>
                   </article>
                </div>
@@ -1373,6 +1448,7 @@
                         <a href="<?= base_url; ?>en/mechanical-humidistats-Type-q88s.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/8-8Sideshaft20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat8.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">076</span>
                      </div>
                   </article>
                </div>
@@ -1392,6 +1468,7 @@
                         <a href="<?= base_url; ?>en/wall-mounting-mechanical-room-humidistats-type-q88f-r.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/8-10Wall mounting electromechanical humidistat20140311.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat8.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">077</span>
                      </div>
                   </article>
                </div>
@@ -1409,6 +1486,7 @@
                         <a href="<?= base_url; ?>en/din_rail_mounting_humidistat_cabinet_type-q7c.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/8-12Drift-Electrical cabinets20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat8.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">078</span>
                      </div>
                   </article>
                </div>
@@ -1426,6 +1504,7 @@
                         <a href="<?= base_url; ?>en/electronic_on-off_humidity-types_q8whh.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/8-15Cold rooms-Commercial rooms-Humidity and temperature controller-Humidity controller-IP65-Output relay20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat8.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">079</span>
                      </div>
                   </article>
                </div>
@@ -1445,6 +1524,7 @@
                         <a href="<?= base_url; ?>en/fire_detection_fusibl_links-type_5ea.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">080</span>
                      </div>
                   </article>
                </div>
@@ -1464,6 +1544,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5ed.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">081</span>
                      </div>
                   </article>
                </div>
@@ -1483,6 +1564,7 @@
                         <a href="<?= base_url; ?>en/fire_detection_fusible-links-type-5ee.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">082</span>
                      </div>
                   </article>
                </div>
@@ -1502,6 +1584,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5ef.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">083</span>
                      </div>
                   </article>
                </div>
@@ -1521,6 +1604,7 @@
                         <a href="<?= base_url; ?>en/fire_detection_fusible-links-type-5eg.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">084</span>
                      </div>
                   </article>
                </div>
@@ -1540,6 +1624,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5eh.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">085</span>
                      </div>
                   </article>
                </div>
@@ -1559,6 +1644,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5ej.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">086</span>
                      </div>
                   </article>
                </div>
@@ -1578,6 +1664,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5et.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">087</span>
                      </div>
                   </article>
                </div>
@@ -1597,6 +1684,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5ev.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">088</span>
                      </div>
                   </article>
                </div>
@@ -1616,6 +1704,7 @@
                         <a href="<?= base_url; ?>en/fire-detection-fusible-links-type-5ew.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">089</span>
                      </div>
                   </article>
                </div>
@@ -1635,6 +1724,7 @@
                         <a href="<?= base_url; ?>en/fire_detection_fusible_links-type_5ez.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/9-2-3Average welding surface-Maximum permanent force-Maximum permanent load20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat9.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">090</span>
                      </div>
                   </article>
                </div>
@@ -1653,6 +1743,7 @@
                         <a href="<?= base_url; ?>en/ceramic_connection_blocks-type-bn.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/Cat10 P2-3 Ultimheat EN BN 20130524.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">091</span>
                      </div>
                   </article>
                </div>
@@ -1671,6 +1762,7 @@
                         <a href="<?= base_url; ?>en/ceramic_connection_blocks-type-bv.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-2Ceramic Ker 110-Clamping with pressure plate-Clamping without pressure plate-EN 60730-1-Recommended clamping torque-Test current20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">092</span>
                      </div>
                   </article>
                </div>
@@ -1689,6 +1781,7 @@
                         <a href="<?= base_url; ?>en/ceramic_connection_blocks-type-bp.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-3Catering equipment-Heating elements-High Temperature Ceramic-Iinfrared heaters-Ker 600 ceramic -quartz tube heaters20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">093</span>
                      </div>
                   </article>
                </div>
@@ -1707,6 +1800,7 @@
                         <a href="<?= base_url; ?>en/ceramic_connection_blocks-type-bq.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-3Catering equipment-Heating elements-High Temperature Ceramic-Iinfrared heaters-Ker 600 ceramic -quartz tube heaters20130707.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">094</span>
                      </div>
                   </article>
                </div>
@@ -1727,6 +1821,7 @@
                         <a href="<?= base_url; ?>en/ceramic_terminal_blocks-type-bc.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-4-3 pole connection block for oil convection heater-3 way cylindrical ceramic block.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">095</span>
                      </div>
                   </article>
                </div>
@@ -1749,6 +1844,7 @@
                         <a href="<?= base_url; ?>en/ceramic_terminal_blocks-type-bd.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-4-3 pole connection block for oil convection heater-3 way cylindrical ceramic block.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">096</span>
                      </div>
                   </article>
                </div>
@@ -1766,6 +1862,7 @@
                         <a href="<?= base_url; ?>en/high_temperature_grommet-type-bem.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-5High temperature grommet20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">097</span>
                      </div>
                   </article>
                </div>
@@ -1785,6 +1882,7 @@
                         <a href="<?= base_url; ?>en/multiple-poles-ceramic-connection-blocks-type-br.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-5High temperature grommet20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">098</span>
                      </div>
                   </article>
                </div>
@@ -1802,14 +1900,15 @@
                         <a href="<?= base_url; ?>en/cylindrical_connection_block-type-by.html"  class="btn-red">See More</a>
                         <a href="<?= base_url; ?>en/pdf/10-5High temperature grommet20140618.pdf "  target="_blank" class="btn-red">Download PDF</a>
                         <!-- <a href="http://www.ultimheat.com/cat10.html" target="_blank" class="access-link"> Access full catalogue <i class="fa fa-external-link" aria-hidden="true"></i> </a> -->
+                        <span class="number-btn">099</span>
                      </div>
                   </article>
                </div>
 
             </div>
          </div>
-		</section>
-		
-		<?php include('footer.php'); ?>
+    </section>
+    
+    <?php include('footer.php'); ?>
     </body>
 </html>

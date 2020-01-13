@@ -15,14 +15,7 @@
       <div class="container-fluid mt-4">
          <div class="container">
           <div class="row reverse-mob">
-               <div class="col-md-4 col-lg-4">
-                  
-              <div class="sidebar">
-                <?php include('sidebar.php'); ?>
-               </div> 
-
-               </div>
-               <div class="col-md-8 col-lg-8">
+               <div class="col-md-12 col-lg-12">
                   <div>
                      <h1 class="pb-2 page-title">ULTIMHEAT Technology Flat Heaters: Contact Information</h1>
                      <div class="contact-info mb-3">

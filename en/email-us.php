@@ -109,8 +109,6 @@ if(isset($_POST['submit']))
       </div>
       
 	<?php include('footer.php'); ?>
-	
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 

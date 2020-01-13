@@ -15,12 +15,8 @@
       <div class="container-fluid top-space">
          <div class="container">
             <div class="row reverse-mob">
-               <div class="col-lg-4 col-md-4">
-                  
-				  <?php include('sidebar.php'); ?>
-				  
-               </div>
-               <div class="col-lg-8 col-md-8 order-des ">
+            
+               <div class="col-lg-12 col-md-12 order-des ">
                   <div>
                      <h3 class="pb-2">How To Order</h3>
                      <div class="border-bottom mb-3">
