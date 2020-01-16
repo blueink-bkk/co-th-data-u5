@@ -27,11 +27,15 @@ if(isset($_POST['submit']))
 	$mail = mail($to_email, 'ULTIMHEAT Contact Us', $message_body,$headers);
 	
 	if($mail){
-		$_SESSION["msg"] = "The email has been successfully sent, thank you.";
+		$msg = $_POST["success"];
 	}
 	else{
-		$_SESSION["msg"] = "Failed to send mail!";
+		$msg = $_POST["error"];
 	}
+}
+else
+{
+	$msg = "";
 }
 ?>
 <!DOCTYPE html>
@@ -60,17 +64,17 @@ if(isset($_POST['submit']))
                         </p>
 
                         <p> <b> Please email your question and we will respond within 24 hours.</b> </p>
-						<?php if(isset($_SESSION['msg'])) { ?>
+						<?php if($msg) { ?>
 						
 							<p class="form-msg">
-								<?php echo $_SESSION['msg'];
-									unset($_SESSION['msg']); ?>
+								<?php echo $msg; ?>
 							</p>
 							
 						<?php } ?>
 
                            <form method="post" enctype="multipart/form-data" class="email-form">
-                                 
+                                 <input type="hidden" name="success" value="The email has been successfully sent, thank you." />
+                                 <input type="hidden" name="error" value="Failed to send mail!" />
                                  <div class="row">
                                     <div class="col-md-6">
                                        <input type="text" id="uname" class="form-control"  name="uname" placeholder="Your name"><label id="dis"></label> 
