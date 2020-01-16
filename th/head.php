@@ -1,8 +1,8 @@
 <?php
 error_reporting(0);
 
-define("base_url", "http://design.eglogics.website/ultimheat/");
-session_start();
+define("base_url", "https://ultimheat.co.th/");
+
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="<?= base_url; ?>css/style.css">

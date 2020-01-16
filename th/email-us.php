@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST['submit']))
 {
+	//$to_email = "kavendraespl@gmail.com"; 
 	$to_email = "infoblueink@ultimheat.com"; 
 	
 	//Sanitize input data using PHP filter_var().
@@ -23,15 +24,20 @@ if(isset($_POST['submit']))
 	$message_body .= "<b>Subject:</b> ".$subject."<br>";
    
     $message_body .= "<b>Message:</b> ".$msg."<br>";
-
-	$mail = mail($to_email, 'ULTIMHEAT Contact Us', $message_body,$headers);
+	  
+	  
+	$mail = mail($to_email, 'Contact Us', $message_body,$headers);
 	
 	if($mail){
-		$_SESSION["msg"] = "The email has been successfully sent, thank you.";
+		$msg = $_POST["success"];
 	}
 	else{
-		$_SESSION["msg"] = "Failed to send mail!";
+		$msg = $_POST["error"];
 	}
+}
+else
+{
+	$msg = "";
 }
 ?>
 <!DOCTYPE html>
@@ -53,62 +59,63 @@ if(isset($_POST['submit']))
             <div class="row reverse-mob">
                <div class="col-lg-12 col-md-12 order-des pb-3">
                   <div>
-                     <h1 class="pb-2"> Contact Us </h1>
+                     <h1 class="pb-2"> ติดต่อเรา </h1>
                      <div class=" mb-3">
-                        <p>Valued Customer,<br>
-                           The Increase in SPAM emails obligned us to take some prevention measures so we can keep offering you the shortest answering time and best services,
+                        <p>ลูกค้าที่มีค่า,<br>
+                           การเพิ่มอีเมลขยะทำให้เราต้องใช้มาตรการป้องกันเพื่อให้เราสามารถให้เวลาตอบสั้นที่สุดและบริการที่ดีที่สุด
                         </p>
 
-                        <p> <b> Please email your question and we will respond within 24 hours.</b> </p>
-						<?php if(isset($_SESSION['msg'])) { ?>
+						
+						<?php if($msg) { ?>
 						
 							<p class="form-msg">
-								<?php echo $_SESSION['msg'];
-									unset($_SESSION['msg']); ?>
+								<?php echo $msg; ?>
 							</p>
 							
 						<?php } ?>
+						
+                        <p> <b> กรุณาส่งอีเมลคำถามของคุณและเราจะตอบกลับภายใน 24 ชั่วโมง</b> </p>
 
-                           <form method="post" enctype="multipart/form-data" class="email-form">
-                                 
+                           <form action="" method="post" enctype="multipart/form-data" class="email-form">
+                                 <input type="hidden" name="success" value="ส่งอีเมลเรียบร้อยแล้ว ขอขอบคุณ" />
+                                 <input type="hidden" name="error" value="เกิดความผิดพลาดในการอีเมลล์ " />
+								 
                                  <div class="row">
                                     <div class="col-md-6">
-                                       <input type="text" id="uname" class="form-control"  name="uname" placeholder="Your name"><label id="dis"></label> 
+                                       <input type="text" id="uname" class="form-control"  name="uname" placeholder="ชื่อของคุณ"><label id="dis"></label>
                                     </div>
                                     <div class="col-md-6">
-                                       <input type="text" id="email" class="form-control" name="email" placeholder="Your E-mail"><label id="dis1"></label> 
+                                       <input type="text" id="email" class="form-control" name="email" name="" placeholder="อีเมลล์ของคุณ"><label id="dis1"></label>
                                     </div>
                                     <div class="col-md-12">
-                                       <input type="number" id="phone" class="form-control" name="phone" placeholder="Your Phone"><label id="dis2"></label>
+                                       <input type="number" id="phone" class="form-control" name="phone" placeholder="อีเมลของคุณ"><label id="dis2"></label>
                                     </div>
                                     <div class="col-md-12">
-                                       <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject"><label id="dis3"></label>
+                                       <input type="text" id="subject" class="form-control" name="subject" placeholder="หัวข้อข้อความ"><label id="dis3"></label>
                                     </div>
                                     <div class="col-md-12">
-                                      <textarea rows="5" id="message" class="form-control" name="message" placeholder="Your message:(Maximum 4000 characters)" ></textarea><label id="dis4"></label>
+                                      <textarea rows="5" id="message" class="form-control" name="message" placeholder="ข้อความของคุณ: (สูงสุด 4000 ตัวอักษร)" ></textarea><label id="dis4"></label>
                                     </div>
-                                   <div class="col-md-12">
+                                    <div class="col-md-12">
                                        <div class="g-recaptcha" id="captcha" data-sitekey="6LeleLoUAAAAAHD7JJqJ7UWgFo-lDvOz4J0YQ5Vn"></div> <label id="dis5"></label>
                                     </div>
                                     <div class="col-md-12">
-                                       <input type="submit" name="submit" id="submit" class="form-control" value="submit">
+                                       <input type="submit" name="submit" id="submit" class="form-control" value="เสนอ">
                                     </div>
                                  </div>
 
                            </form>
-						    
-						   
 
                      </div>
-                  </div> 
+                  </div>
                 
                   
                </div>
             </div>
-         </div> 
+         </div>
       </div>
       
-	<?php include('footer.php'); ?>
+	  <?php include('footer.php'); ?>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -118,9 +125,9 @@ function ValidateEmail(email) {
       return expr.test(email);
 }
 function ValidateUsername(uname){
- var expr=/^[a-zA-Z0-9_ ]{3,30}$/;
+ var expr=/^[a-zA-Z0-9_]{3,15}$/;
  return expr.test(uname);
-} 
+}
 function ValidateMobile(phone){
  var expr=/^[0-9]{10,14}$/;
  return expr.test(phone);
@@ -134,12 +141,12 @@ $(document).ready(function(){
   var subject=$('#subject').val();
   var message=$('#message').val();
   
-    //User name validate...
+   //User name validate...
   if(username==""){
-   $('#dis').fadeIn().html('<span id="error">Name cannot be empty.</span>');
+   $('#dis').fadeIn().html('<span id="error">ชื่อไม่สามารถปล่อยให้ว่างได้ </span>');
    return false;
   }else if(!ValidateUsername(username)){
-   $('#dis').fadeIn().html('<span id="error">Please check and re-enter.</span>');
+   $('#dis').fadeIn().html('<span id="error">กรุณาตรวจสอบและใส่อีกครั้ง</span>');
    return false;
   }else{
    $('#dis').fadeOut();
@@ -147,11 +154,11 @@ $(document).ready(function(){
   
   //E-mail validate..
   if(email==""){
-   $('#dis1').fadeIn().html('<span id="error">Email address cannot be empty.</span>');
+   $('#dis1').fadeIn().html('<span id="error">อีเมลล์ไม่สามารถปล่อยว่างได้ </span>');
    return false;
   }else if (!ValidateEmail(email)) {
            //alert("Invalid email address.");
-     $('#dis1').fadeIn().html('<span id="error">Please check and re-enter.</span>');
+     $('#dis1').fadeIn().html('<span id="error">กรุณาตรวจสอบและใส่อีกครั้ง</span>');
    return false;
   }else{
    $('#dis1').fadeOut();
@@ -161,10 +168,10 @@ $(document).ready(function(){
   
   //Mobile validate
   if(mobile==""){
-   $('#dis2').fadeIn().html('<span id="error">Telephone number cannot be empty.</span>');
+   $('#dis2').fadeIn().html('<span id="error">เบอร์โทรศัพท์ไม่สามารถปล่อยให้ว่างได้ </span>');
    return false;
   }else if(!ValidateMobile(mobile)){
-   $('#dis2').fadeIn().html('<span id="error">Wrong number, start again.</span>');
+   $('#dis2').fadeIn().html('<span id="error">กรุณาใส่อีกครั้ง</span>');
    return false;
   }else{
    $('#dis2').fadeOut();
@@ -172,7 +179,7 @@ $(document).ready(function(){
   
   //Subject validate
   if(subject==""){
-   $('#dis3').fadeIn().html('<span id="error">Title cannot be empty, please check and re-enter. </span>');
+   $('#dis3').fadeIn().html('<span id="error">หัวข้อไม่สามารถปล่อยว่างได้ กรุณาตรวจสอบและใส่อีกครั้ง </span>');
    return false;
   }else{
    $('#dis3').fadeOut();
@@ -180,7 +187,7 @@ $(document).ready(function(){
   
   //Message validate
   if(message==""){
-   $('#dis4').fadeIn().html('<span id="error">Text cannot be empty, please check and re-enter.</span>');
+   $('#dis4').fadeIn().html('<span id="error">ข้อความไม่สามารถปล่อยให้ว่างได้กรุณาใส่อีกครั้ง </span>');
    return false;
   }else{
    $('#dis4').fadeOut();
@@ -189,7 +196,7 @@ $(document).ready(function(){
   //Captcha validate
   if(grecaptcha.getResponse() == "") {
     e.preventDefault();
-    $('#dis5').fadeIn().html('<span id="error">Captcha is required.</span>');
+    $('#dis5').fadeIn().html('<span id="error">ต้องการแคปต์ชา</span>');
 	return false;
   } else {
     $('#dis5').fadeOut();
@@ -198,9 +205,8 @@ $(document).ready(function(){
   
  });
 });
-
-
 </script>
+	  
 	  
     </body>
 </html>
