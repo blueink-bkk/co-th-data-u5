@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php define("base_url", "http://design.eglogics.website/ultimheat/"); ?>
+<?php define("base_url", "https://ultimheat.co.th/"); ?>
 <html lang="en">
 
 <head>
