@@ -1605,3 +1605,11 @@ a.button {
     font-size: 32px;
     line-height: 32px;
   }
+  .card.new-card .number-btn{
+    float: right;
+    background: #008fff;
+    color: #fff;
+    padding: 8px;
+    border-radius: 46px;
+    margin-top: -6px;
+  }
