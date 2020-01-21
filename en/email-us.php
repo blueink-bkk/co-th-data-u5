@@ -14,7 +14,7 @@ if(isset($_POST['submit']))
 	$headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 	
-    $message_body .= "<b>Name :</b> ".$user_name."<br>"; 
+    $message_body = "<b>Name :</b> ".$user_name."<br>"; 
    
     $message_body .= "<b>Email:</b> ".$user_email."<br>"; 
    
