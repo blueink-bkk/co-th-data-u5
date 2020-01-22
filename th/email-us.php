@@ -1,8 +1,7 @@
 <?php
 if(isset($_POST['submit']))
 {
-	//$to_email = "kavendraespl@gmail.com"; 
-	$to_email = "infoblueink@ultimheat.com"; 
+	$to_email = "ultimheat@gmail.com";
 	
 	//Sanitize input data using PHP filter_var().
 	$user_name	= filter_var($_POST["uname"], FILTER_SANITIZE_STRING);;
@@ -21,25 +20,16 @@ if(isset($_POST['submit']))
    
     $message_body .= "<b>Phone:</b> ".$phone_number."<br>";
 	  
-	$message_body .= "<b>Subject:</b> ".$subject."<br>";
+    $message_body .= "<b>Subject:</b> ".$subject."<br>";
    
     $message_body .= "<b>Message:</b> ".$msg."<br>";
 	  
-	  
-	$mail = mail($to_email, 'Contact Us', $message_body,$headers);
+    $mail = mail($to_email, 'Contact Us', $message_body,$headers);
 	
-	if($mail){
-		$msg = $_POST["success"];
-	}
-	else{
-		$msg = $_POST["error"];
-	}
-}
-else
-{
-	$msg = "";
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -64,16 +54,7 @@ else
                         <p>ลูกค้าที่มีค่า,<br>
                            การเพิ่มอีเมลขยะทำให้เราต้องใช้มาตรการป้องกันเพื่อให้เราสามารถให้เวลาตอบสั้นที่สุดและบริการที่ดีที่สุด
                         </p>
-
-						
-						<?php if($msg) { ?>
-						
-							<p class="form-msg">
-								<?php echo $msg; ?>
-							</p>
-							
-						<?php } ?>
-						
+			     
                         <p> <b> กรุณาส่งอีเมลคำถามของคุณและเราจะตอบกลับภายใน 24 ชั่วโมง</b> </p>
 
                            <form action="" method="post" enctype="multipart/form-data" class="email-form">
