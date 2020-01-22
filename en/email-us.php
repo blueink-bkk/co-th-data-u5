@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit']))
 {
-	$to_email = "infoblueink@ultimheat.com"; 
+	$to_email = "ultimheat@gmail.com"; 
 	
 	//Sanitize input data using PHP filter_var().
 	$user_name	= filter_var($_POST["uname"], FILTER_SANITIZE_STRING);;
@@ -25,19 +25,10 @@ if(isset($_POST['submit']))
     $message_body .= "<b>Message:</b> ".$msg."<br>";
 
 	$mail = mail($to_email, 'ULTIMHEAT Contact Us', $message_body,$headers);
-	
-	if($mail){
-		$msg = $_POST["success"];
-	}
-	else{
-		$msg = $_POST["error"];
-	}
-}
-else
-{
-	$msg = "";
+
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -64,13 +55,6 @@ else
                         </p>
 
                         <p> <b> Please email your question and we will respond within 24 hours.</b> </p>
-						<?php if($msg) { ?>
-						
-							<p class="form-msg">
-								<?php echo $msg; ?>
-							</p>
-							
-						<?php } ?>
 
                            <form method="post" enctype="multipart/form-data" class="email-form">
                                  <input type="hidden" name="success" value="The email has been successfully sent, thank you." />
