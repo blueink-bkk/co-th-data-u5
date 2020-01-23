@@ -1,34 +1,3 @@
-<?php
-if(isset($_POST['submit']))
-{
-	$to_email = "ultimheat@gmail.com"; 
-	
-	//Sanitize input data using PHP filter_var().
-	$user_name	= filter_var($_POST["uname"], FILTER_SANITIZE_STRING);;
-	$user_email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $phone_number = filter_var($_POST["phone"], FILTER_SANITIZE_NUMBER_INT);
-	$subject  = filter_var($_POST["subject"], FILTER_SANITIZE_STRING);
-    $msg   = htmlspecialchars($_POST["message"], ENT_QUOTES);
-	
-	//email body
-	$headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-	
-    $message_body = "<b>Name :</b> ".$user_name."<br>"; 
-   
-    $message_body .= "<b>Email:</b> ".$user_email."<br>"; 
-   
-    $message_body .= "<b>Phone:</b> ".$phone_number."<br>";
-	  
-	$message_body .= "<b>Subject:</b> ".$subject."<br>";
-   
-    $message_body .= "<b>Message:</b> ".$msg."<br>";
-
-	$mail = mail($to_email, 'ULTIMHEAT Contact Us', $message_body,$headers);
-
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
