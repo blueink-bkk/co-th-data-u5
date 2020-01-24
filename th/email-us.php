@@ -78,7 +78,7 @@ function ValidateUsername(uname){
  return expr.test(uname);
 }
 function ValidateMobile(phone){
- var expr=/^[0-9 -.\s?]{10,15}$/;
+ var expr=/^[0-9 -.\s?]{10,19}$/;
  return expr.test(phone);
 }
 
