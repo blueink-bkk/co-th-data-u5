@@ -37,7 +37,7 @@
                                        <input type="text" id="email" class="form-control" name="email" name="" placeholder="อีเมลล์ของคุณ"><label id="dis1"></label>
                                     </div>
                                     <div class="col-md-12">
-                                       <input type="number" id="phone" class="form-control" name="phone" placeholder="อีเมลของคุณ"><label id="dis2"></label>
+                                       <input type="text" id="phone" class="form-control" name="phone" placeholder="อีเมลของคุณ"><label id="dis2"></label>
                                     </div>
                                     <div class="col-md-12">
                                        <input type="text" id="subject" class="form-control" name="subject" placeholder="หัวข้อข้อความ"><label id="dis3"></label>
