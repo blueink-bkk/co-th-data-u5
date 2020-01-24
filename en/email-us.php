@@ -36,7 +36,7 @@
                                        <input type="text" id="email" class="form-control" name="email" placeholder="Your E-mail"><label id="dis1"></label> 
                                     </div>
                                     <div class="col-md-12">
-                                       <input type="number" id="phone" class="form-control" name="phone" placeholder="Your Phone"><label id="dis2"></label>
+                                       <input type="text" id="phone" class="form-control" name="phone" placeholder="Your Phone"><label id="dis2"></label>
                                     </div>
                                     <div class="col-md-12">
                                        <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject"><label id="dis3"></label>
