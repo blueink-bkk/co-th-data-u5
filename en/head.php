@@ -3,6 +3,9 @@ error_reporting(0);
 
 define("base_url", "https://ultimheat.co.th/");
  ?>
+
+<meta name="e3:revision" content="1.0">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="<?= base_url; ?>css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
@@ -13,3 +16,6 @@ define("base_url", "https://ultimheat.co.th/");
 <script src="<?= base_url; ?>js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="/dkz-double-click.js"></script>
+<link rel="stylesheet" href="/dkz.css">
