@@ -5,7 +5,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	  
+
 
 <meta name="e3:revision" content="1.0">
 
@@ -221,17 +221,17 @@
    	} else {
    		changed_url = current_url.replace("/th/", "/en/");
    	}
-   	
+
    	//alert(changed_url);
    	window.location.replace(changed_url);
    });
 </script>
 <script>
 // $(document).ready(function() {
-//     var url = window.location; 
+//     var url = window.location;
 //     var element = $('ul.sidebar-menu a').filter(function() {
 //     return this.href == url || url.href.indexOf(this.href) == 0; }).parent().addClass('active');
-//     if (element.is('li')) { 
+//     if (element.is('li')) {
 //          element.addClass('active').parent().parent('li').addClass('active')
 //      }
 // });
@@ -350,56 +350,62 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 //      const action = '/email-forward' ; //event.target.action;
     const fdata = new FormData(event.target);
-    for(var pair of fdata.entries()) {
-      console.log(pair[0]+ ', '+ pair[1]);
-    }
+//    if (true) {
+      for(var pair of fdata.entries()) {
+        console.log(pair[0]+ ', '+ pair[1]);
+      }
 
-    const _uname = fdata.get('uname')
-    const _email = fdata.get('email')
-    const _phone = fdata.get('phone')
-    const _subject = fdata.get('subject')
-    const _msg1 = fdata.get('message')
+      const _uname = fdata.get('uname')
+      const _email = fdata.get('email')
+      const _phone = fdata.get('phone')
+      const _subject = fdata.get('subject')
+      const _msg1 = fdata.get('message')
 
-    const msg2 = `
-    <br>
-    <div>
-    <b>From :</b> ${_uname}
-    </div>
+      const msg2 = `
+      <br>
+      <div>
+      <b>From :</b> ${_uname}
+      </div>
 
-    <br>
-    <div>
-    <b>email address :</b>
-    <a href="mailto:${_email}?subject=RE: ${_subject}">
-    ${_email}
-    </a>
-    </div>
+      <br>
+      <div>
+      <b>email address :</b>
+      <a href="mailto:${_email}?subject=RE: ${_subject}">
+      ${_email}
+      </a>
+      </div>
 
-    <br>
-    <div>
-    <b>phone :</b> ${_phone}
-    </div>
+      <br>
+      <div>
+      <b>phone :</b> ${_phone}
+      </div>
 
-    <br>
-    <div>
-    <b>subject :</b> ${_subject}
-    </div>
+      <br>
+      <div>
+      <b>subject :</b> ${_subject}
+      </div>
 
-    <br>
-    <div>
-    <p style="margin:20px; background-color:rgb(230,250,230); max-width:600px; padding:10px; min-height:100px;">
-    ${_msg1.replace(/\n/g,'<br>\n')}
-    </p>
-    </div>
-    `;
+      <br>
+      <div>
+      <p style="margin:20px; background-color:rgb(230,250,230); max-width:600px; padding:10px; min-height:100px;">
+      ${_msg1.replace(/\n/g,'<br>\n')}
+      </p>
+      </div>
+      `;
 
 
-    fdata.set('message', msg2)
+      fdata.set('message', msg2)
+//    }
+
+
+    console.log(`formData:`,fdata)
+    console.log(`@402 `, btoa('hello'))
 
     fetch(event.target.action, {
       method: 'POST',
       body: new URLSearchParams(fdata) // event.target is the form
     }).then((resp) => {
-      console.log({resp})
+      console.log(`@404 fetch->then : `,{resp})
       return resp.json(); // or resp.text() or whatever the server sends
     }).then((retv) => {
       console.log({retv})

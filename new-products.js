@@ -1,5 +1,5 @@
-const double_click_allowed = window.localStorage.getItem('double-click');
-console.log({double_click_allowed})
+//const double_click_allowed = window.localStorage.getItem('double-click');
+//console.log({double_click_allowed})
 console.log('window.location.search:', window.location.search)
 let params = (new URL(document.location)).searchParams;
 console.log('u:',params.get("u"));
@@ -47,6 +47,9 @@ style.appendChild(document.createTextNode(`
   }
 `));
 
+/*
+$(document).ready(()=>{
+
 double_click_allowed &&
 style.appendChild(document.createTextNode(`
   section#new-products article.js-e3article:hover {
@@ -57,9 +60,6 @@ style.appendChild(document.createTextNode(`
 const head = document.getElementsByTagName('head')[0];
 head.appendChild(style)
 
-/*
-  Admin panel/menu.
-*/
 if (true || double_click_allowed) {
   const admin_panel = document.createElement('section');
   admin_panel.innerHTML = `
@@ -69,3 +69,4 @@ if (true || double_click_allowed) {
   _body.appendChild(admin_panel)
   console.log({admin_panel})
 }
+})*/

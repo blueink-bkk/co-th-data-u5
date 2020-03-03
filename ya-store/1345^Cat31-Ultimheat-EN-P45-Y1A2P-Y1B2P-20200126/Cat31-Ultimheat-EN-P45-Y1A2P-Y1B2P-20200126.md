@@ -3,7 +3,7 @@ article_id:  Y1A2P & Y1B2P
 img:  Cat31-Ultimheat-EN-P45-Y1A2P-Y1B2P-20200126.jpg
 pdf:  Cat31-Ultimheat-EN-P45-Y1A2P-Y1B2P-20200126.pdf
 format:  diva-v1
-sku:  Type Y1A2P - Y1B2P
+sku:  Type Y1A2P & Y1B2P
 ---
 
 # Electronic room thermostats
